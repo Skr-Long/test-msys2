@@ -11,4 +11,8 @@
         "-j=12",
         "--compile-commands-dir=${workspaceFolder}/build"
     ],
+    "Notes.notesLocation": "${workspaceFolder}/doc/",
+    "workbench.editorAssociations": {
+        "*.md": "cweijan.markdownViewer"
+    },
 }
