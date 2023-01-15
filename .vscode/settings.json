@@ -1,0 +1,14 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "clangd.arguments": [
+        "--log=verbose",
+        "--pretty",
+        "--header-insertion=iwyu",
+        "--header-insertion-decorators",
+        "--clang-tidy-checks=cppcoreguidelines-*,performance-*,bugprone-*,portability-*,modernize-*,google-*",
+        "-j=12",
+        "--compile-commands-dir=${workspaceFolder}/build"
+    ],
+}
